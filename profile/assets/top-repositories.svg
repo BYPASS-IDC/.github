@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="390" viewBox="0 0 620 390" role="img" aria-labelledby="t d">
-<title id="t">TOP REPOSITORIES</title><desc id="d">RANKED BY PUBLIC STARS</desc>
-<defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#260b40"/><stop offset="1" stop-color="#10021f"/></linearGradient><linearGradient id="a"><stop stop-color="#5b1285"/><stop offset=".6" stop-color="#9227c9"/><stop offset="1" stop-color="#d7d1e4"/></linearGradient><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9227c9" stroke-opacity=".06"/></pattern></defs>
-<rect width="620" height="390" rx="20" fill="#1b0532" stroke="#5b1285"/><rect width="620" height="390" rx="20" fill="url(#g)"/>
-<text x="28" y="45" fill="#d7d1e4" font-family="Arial, sans-serif" font-size="19" font-weight="700">TOP REPOSITORIES</text><text x="28" y="72" fill="#9227c9" font-family="Consolas, monospace" font-size="10" letter-spacing="1">RANKED BY PUBLIC STARS</text><path d="M20 91H600" stroke="#5b1285" stroke-opacity=".6"/>
-<text x="28" y="190" fill="#d7d1e4" font-family="Consolas, monospace" font-size="13">Repository rankings will appear after</text><text x="28" y="215" fill="#a99bbd" font-family="Consolas, monospace" font-size="11">the first analytics refresh.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="390" viewBox="0 0 620 390" role="img" aria-labelledby="title desc">
+  <title id="title">TOP REPOSITORIES</title><desc id="desc">RANKED BY PUBLIC STARS  /  TOP SIX</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#260b40"/><stop offset="1" stop-color="#10021f"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5b1285"/><stop offset=".55" stop-color="#9227c9"/><stop offset="1" stop-color="#e5b8ff"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9227c9" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="620" height="390" rx="20" fill="#1b0532" stroke="#5b1285" stroke-opacity=".85"/>
+  <rect width="620" height="390" rx="20" fill="url(#grid)"/>
+  <path d="M20 91H600" stroke="#5b1285" stroke-opacity=".55"/>
+  <text x="28" y="47" fill="#d7d1e4" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">TOP REPOSITORIES</text>
+  <text x="28" y="73" fill="#9227c9" font-family="Consolas, monospace" font-size="10.5" letter-spacing="1.2">RANKED BY PUBLIC STARS  /  TOP SIX</text><text x="28" y="131" fill="#d7d1e4" text-anchor="start" font-family="Consolas, 'Courier New', monospace" font-size="10.5" font-weight="normal">01  triagekit</text><rect x="28" y="140" width="390" height="7" rx="3.5" fill="#260b40" stroke="#5b1285" stroke-opacity=".45"/><rect x="28" y="140" width="350" height="7" rx="3.5" fill="url(#accent)"/><text x="590" y="145" fill="#ffffff" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="10.5" font-weight="bold">1</text><text x="28" y="168" fill="#d7d1e4" text-anchor="start" font-family="Consolas, 'Courier New', monospace" font-size="10.5" font-weight="normal">02  .github</text><rect x="28" y="177" width="390" height="7" rx="3.5" fill="#260b40" stroke="#5b1285" stroke-opacity=".45"/><rect x="28" y="177" width="3" height="7" rx="3.5" fill="url(#accent)"/><text x="590" y="182" fill="#ffffff" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="10.5" font-weight="bold">0</text><text x="28" y="365" fill="#a99bbd" text-anchor="start" font-family="Consolas, 'Courier New', monospace" font-size="9.5" font-weight="normal">Sorted by stars; forks break ties.</text></svg>
